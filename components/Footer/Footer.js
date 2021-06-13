@@ -1,5 +1,8 @@
 import { navData } from "../../data/nav-data/navData";
 import { useRouter } from "next/router";
+import CustomeIcon from "../CustomeIcon";
+import { secondarylightblue } from "../../constants/colors";
+import { techintrospectorsSocialMedia } from "../../data/socialMediaData/socailMediaData";
 
 const Footer = () => {
   const router = useRouter();
@@ -32,7 +35,7 @@ const Footer = () => {
             {navData.map((item, index) => (
               <h3
                 onClick={() => router.push(item.path)}
-                className=" cursor-pointer my-1 transition-all duration-200 ease-in-out border-secondarylightblue hover:border-l-2 hover:pl-5"
+                className=" cursor-pointer my-1 transition-all duration-200 ease-in-out hover:text-secondarylightblue hover:pl-5"
                 key={index}
               >
                 {item.menu}
@@ -50,7 +53,34 @@ const Footer = () => {
             <p>+91 9177114722</p>
             <p>+91 8688668145</p>
           </div>
+
+          <div>
+            {techintrospectorsSocialMedia.map((item, index) => {
+              return (
+                <CustomeIcon
+                  Icon={item.icon}
+                  link={item.link}
+                  iconColor={secondarylightblue}
+                  borderColor="transparent"
+                  iconSize="2"
+                  marginAll="0.5"
+                  marginLeft="-0.5"
+                />
+              );
+            })}
+          </div>
         </div>
+      </div>
+      <div className="w-screen flex justify-center items-center py-5  text-secondarytextcolor">
+        <p>
+          copyright @ 2021{" "}
+          <span
+            className="text-secondarylightblue font-semibold
+          "
+          >
+            Tech-Introspectors
+          </span>
+        </p>
       </div>
     </div>
   );
