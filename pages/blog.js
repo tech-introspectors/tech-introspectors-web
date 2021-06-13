@@ -1,9 +1,9 @@
-const OurProjects = () => {
+const TechBlog = () => {
   return (
     <div className="flex justify-center items-center h-screen text-4xl">
-      Our Projects
+      Tech-Introspectors Blog
     </div>
   );
 };
 
-export default OurProjects;
+export default TechBlog;
