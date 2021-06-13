@@ -1,9 +1,9 @@
-const AboutUs = () => {
+const ContactUs = () => {
   return (
     <div className="flex justify-center items-center h-screen text-4xl">
-      About Us
+      Contact Us
     </div>
   );
 };
 
-export default AboutUs;
+export default ContactUs;
