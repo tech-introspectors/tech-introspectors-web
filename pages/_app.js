@@ -4,21 +4,24 @@ import { useState, useEffect } from "react";
 import LoadingPage from "../components/LoadingPage/LoadingPage";
 
 function MyApp({ Component, pageProps }) {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    if (isLoading) {
-      setTimeout(() => setIsLoading(false), 3000);
-    }
-  });
+    setIsLoading(true);
 
-  if (isLoading) {
-    return <LoadingPage />;
-  }
+    setTimeout(() => setIsLoading(false), 5000);
+  }, []);
+
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      {isLoading ? (
+        <LoadingPage />
+      ) : (
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      )}
+    </>
   );
 }
 
