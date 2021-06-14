@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="w-screen bg-primaryblue py-5 px-7 rounded-bl-full rounded-br-full z-50 absolute t-0">
+      <div className="w-screen bg-primaryblue py-5 px-7 rounded-bl-full rounded-br-full z-50 fixed top-0">
         <div className="flex justify-between items-center">
           <div className="text-secondarylightblue font-bold text-base sm:text-xl md:text-2xl flex-1 pl-5">
             <h1 className="cursor-pointer" onClick={() => router.push("/")}>
