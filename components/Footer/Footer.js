@@ -58,6 +58,7 @@ const Footer = () => {
             {techintrospectorsSocialMedia.map((item, index) => {
               return (
                 <CustomeIcon
+                  key={index}
                   Icon={item.icon}
                   link={item.link}
                   iconColor={secondarylightblue}
