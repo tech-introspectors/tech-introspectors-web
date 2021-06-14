@@ -5,6 +5,8 @@ const Button = styled.button`
   background-color: ${({ bgColor }) => (bgColor ? bgColor : secondaryblue)};
   padding: ${({ paddingAll }) => (paddingAll ? paddingAll : "10")}px;
   color: ${({ textColor }) => (textColor ? textColor : "#fff")};
+  border: none;
+  outline: none;
   border-radius: ${({ borderRadius }) =>
     borderRadius ? borderRadius : "10"}px;
   min-width: ${({ minWidth }) => (minWidth ? minWidth : "140")}px;
