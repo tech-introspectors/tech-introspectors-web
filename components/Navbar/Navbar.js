@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="relative ">
       <div className="w-screen bg-primaryblue py-5 px-7 rounded-bl-full rounded-br-full z-50 fixed top-0">
         <div className="flex justify-between items-center">
           <div className="text-secondarylightblue font-bold text-base sm:text-xl md:text-2xl flex-1 pl-5">
@@ -44,26 +44,26 @@ const Navbar = () => {
             )}
           </div>
         </div>
+        <ToggleNav
+          toggle={toggle}
+          className="absolute  top-0 left-0 h-screen transform translate-y-0 w-screen bg-primaryblue md:hidden flex flex-col justify-center items-center space-y-10"
+        >
+          {navData.map((item, index) => (
+            <div key={index}>
+              <h2
+                onClick={() => {
+                  setToggle(false);
+                  router.push(item.path);
+                }}
+                className="cursor-pointer transition duration-200 transform hover:scale-110 text-secondarytextcolor font-semibold hover:text-secondarylightblue"
+              >
+                {item.menu}
+              </h2>
+            </div>
+          ))}
+        </ToggleNav>
       </div>
       {/* Nav-slider for mobile view */}
-      <ToggleNav
-        toggle={toggle}
-        className="absolute h-screen transform translate-y-0 w-screen bg-primaryblue z-40 md:hidden flex flex-col justify-center items-center space-y-10"
-      >
-        {navData.map((item, index) => (
-          <div key={index}>
-            <h2
-              onClick={() => {
-                setToggle(false);
-                router.push(item.path);
-              }}
-              className="cursor-pointer transition duration-200 transform hover:scale-110 text-secondarytextcolor font-semibold hover:text-secondarylightblue"
-            >
-              {item.menu}
-            </h2>
-          </div>
-        ))}
-      </ToggleNav>
     </div>
   );
 };
@@ -71,7 +71,11 @@ const Navbar = () => {
 export default Navbar;
 
 const ToggleNav = styled.div`
-  transition: transform 0.5s;
+  position: absolute;
+  top: 0;
+  z-index: -50;
+  transition: transform 0.5s, opacity 0.5s linear;
   transform: ${({ toggle }) =>
     toggle ? "translateY(0%)" : "translateY(-100%)"};
+  opacity: ${({ toggle }) => (toggle ? "1" : "0")};
 `;

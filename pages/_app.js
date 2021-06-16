@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import LoadingPage from "../components/LoadingPage/LoadingPage";
 
 function MyApp({ Component, pageProps }) {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     setIsLoading(true);
