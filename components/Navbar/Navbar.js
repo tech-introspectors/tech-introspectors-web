@@ -73,6 +73,7 @@ export default Navbar;
 const ToggleNav = styled.div`
   position: absolute;
   top: 0;
+  left: 0;
   z-index: -50;
   transition: transform 0.5s, opacity 0.5s linear;
   transform: ${({ toggle }) =>

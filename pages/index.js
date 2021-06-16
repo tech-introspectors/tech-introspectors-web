@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="relative bg-primaryblue flex justify-center items-center h-screen text-4xl">
+      <div className="relative bg-primaryblue flex justify-center items-center w-screen h-screen text-4xl">
         <div className="absolute bottom-0 ">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
