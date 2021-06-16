@@ -7,18 +7,21 @@ function MyApp({ Component, pageProps }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (isLoading) {
-      setTimeout(() => setIsLoading(false), 3000);
-    }
-  });
+    setIsLoading(true);
 
-  if (isLoading) {
-    return <LoadingPage />;
-  }
+    setTimeout(() => setIsLoading(false), 5000);
+  }, []);
+
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      {isLoading ? (
+        <LoadingPage />
+      ) : (
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      )}
+    </>
   );
 }
 
