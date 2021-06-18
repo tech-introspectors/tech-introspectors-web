@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative ">
+    <div className="relative w-full ">
       <div className="w-screen border-b-2 border-secondarylightblue bg-primaryblue py-5 px-7 rounded-bl-full rounded-br-full z-50 fixed top-0">
         <div className="flex justify-between items-center">
           <div className="text-secondarylightblue font-bold text-base sm:text-xl md:text-2xl flex-1 pl-5">
