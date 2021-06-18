@@ -4,11 +4,11 @@ import TechnologiesWeUse from "./TechnologiesWeUse";
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <Hero />
       <OurTopProjects />
       <TechnologiesWeUse />
-    </div>
+    </>
   );
 };
 
