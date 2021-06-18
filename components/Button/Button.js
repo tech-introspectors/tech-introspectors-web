@@ -10,6 +10,7 @@ const Button = styled.button`
   color: ${(props) => props.theme.textColor || "#fff"};
   border: none;
   outline: none;
+  outline-width: 0;
   cursor: pointer;
   font-size: ${(props) => props.theme.fontSize || "18px"}px;
   border-radius: ${(props) => props.theme.borderRadius || "10px"};
@@ -28,6 +29,7 @@ const Button = styled.button`
     left: 0;
     width: 50%;
     height: 100%;
+    outline-width: 0;
     background-color: ${(props) => props.theme.bgPrimaryColor || primaryColor};
     border-top-left-radius: ${(props) => props.theme.borderRadius || "10px"};
     border-bottom-left-radius: ${(props) => props.theme.borderRadius || "10px"};
@@ -42,6 +44,7 @@ const Button = styled.button`
     right: 0;
     width: 50%;
     height: 100%;
+    outline-width: 0;
     background-color: ${(props) => props.theme.bgPrimaryColor || primaryColor};
     border-top-right-radius: ${(props) => props.theme.borderRadius || "10px"};
     border-bottom-right-radius: ${(props) =>

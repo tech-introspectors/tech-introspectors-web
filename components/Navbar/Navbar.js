@@ -14,10 +14,13 @@ const Navbar = () => {
 
   return (
     <div className="relative ">
-      <div className="w-screen bg-primaryblue py-5 px-7 rounded-bl-full rounded-br-full z-50 fixed top-0">
+      <div className="w-screen border-b-2 border-secondarylightblue bg-primaryblue py-5 px-7 rounded-bl-full rounded-br-full z-50 fixed top-0">
         <div className="flex justify-between items-center">
           <div className="text-secondarylightblue font-bold text-base sm:text-xl md:text-2xl flex-1 pl-5">
-            <h1 className="cursor-pointer" onClick={() => router.push("/")}>
+            <h1
+              className="cursor-pointer inline-block"
+              onClick={() => router.push("/")}
+            >
               Tech-Introspectors
             </h1>
           </div>
@@ -44,6 +47,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
+        {/* Nav-slider for mobile view */}
         <ToggleNav
           toggle={toggle}
           className="absolute  top-0 left-0 h-screen transform translate-y-0 w-screen bg-primaryblue md:hidden flex flex-col justify-center items-center space-y-10"
@@ -63,7 +67,6 @@ const Navbar = () => {
           ))}
         </ToggleNav>
       </div>
-      {/* Nav-slider for mobile view */}
     </div>
   );
 };

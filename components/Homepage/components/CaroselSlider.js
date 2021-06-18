@@ -13,8 +13,8 @@ const CaroselSlider = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 3000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
 
     responsive: [
@@ -45,7 +45,7 @@ const CaroselSlider = () => {
     ],
   };
   return (
-    <div className="px-11 md:px-24 bg-gray-50">
+    <div className="bg-gray-50">
       <Slider {...settings}>
         {topProjectsData.map((item, index) => {
           return (
