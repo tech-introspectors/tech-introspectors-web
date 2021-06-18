@@ -1,24 +1,24 @@
-import { sectionColor } from "../../constants/colors";
-import { topProjectsData } from "../../data/projectsData/topProjectsData";
+import { useRouter } from "next/router";
+import { sectionColor, secondaryblue } from "../../constants/colors";
 import MainTitle from "../MainTitle";
-import ProjectDemoCard from "./components/ProjectDemoCard";
+import Button from "../Button/Button";
+import CaroselSlider from "./components/CaroselSlider";
 
 const OurTopProjects = () => {
+  const router = useRouter();
+
+  const theme = {
+    bgSecondaryColor: secondaryblue,
+    width: "250px",
+  };
   return (
-    <div>
+    <div className="flex flex-col w-screen bg-blue-500">
       <div>
         <MainTitle bgColor={sectionColor} title="Our Top Projects" />
       </div>
-      <div className="px-24 bg-gray-50 flex flex-col md:flex-row whitespace-normal">
-        {topProjectsData.map((item, index) => {
-          return (
-            <ProjectDemoCard
-              source={item.projectImg}
-              title={item.projectName}
-              description={item.description}
-            />
-          );
-        })}
+      <CaroselSlider />
+      <div className="flex justify-center items-center bg-gray-50 pb-24">
+        <Button theme={theme}>View more projects</Button>
       </div>
     </div>
   );
