@@ -12,7 +12,7 @@ const OurTopProjects = () => {
     width: "250px",
   };
   return (
-    <div className="flex flex-col w-screen bg-blue-500">
+    <div className="flex flex-col w-screen h-screen">
       <div>
         <MainTitle bgColor={sectionColor} title="Our Top Projects" />
       </div>
