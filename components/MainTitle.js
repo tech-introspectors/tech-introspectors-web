@@ -6,15 +6,27 @@ import {
   sectionColor,
 } from "../constants/colors";
 
-const MainTitle = ({ title }) => {
+const MainTitle = ({
+  title,
+  bgColor,
+  textColor,
+  outerDivColor,
+  innerDivColor,
+}) => {
   return (
     <>
-      <MainDiv className="py-2 flex justify-center items-center flex-col">
-        <Heading className="text-xl md:text-2xl lg:text-3xl font-bold">
+      <MainDiv
+        bgColor={bgColor}
+        className="py-2 flex justify-center items-center flex-col"
+      >
+        <Heading
+          textColor={textColor}
+          className="text-xl md:text-2xl lg:text-3xl font-bold uppercase"
+        >
           {title}
         </Heading>
-        <Div>
-          <SubDiv />
+        <Div outerDivColor={outerDivColor}>
+          <SubDiv innerDivColor={innerDivColor} />
         </Div>
       </MainDiv>
     </>
@@ -35,8 +47,8 @@ const Div = styled.div`
   width: 20vw;
   height: 5px;
   border-radius: 20px;
-  background-color: ${({ borderColor }) =>
-    borderColor ? borderColor : primaryblue};
+  background-color: ${({ outerDivColor }) =>
+    outerDivColor ? outerDivColor : primaryblue};
   margin-top: 15px;
   position: relative;
   overflow: hidden;
@@ -50,8 +62,8 @@ const SubDiv = styled.div`
   width: 4vw;
   height: 5px;
   border-radius: 20px;
-  background-color: ${({ borderColor }) =>
-    borderColor ? borderColor : secondarylightblue};
+  background-color: ${({ innerDivColor }) =>
+    innerDivColor ? innerDivColor : secondarylightblue};
   position: absolute;
   top: 0%;
   left: -12%;
