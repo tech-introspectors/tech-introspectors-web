@@ -1,6 +1,6 @@
 const TechCard = ({ logoURL, techName }) => {
   return (
-    <div className="group transition-all duration-300 hover:scale-110 relative bg-secondaryblue shadow-lg cursor-pointer h-44 w-96 rounded-xl overflow-hidden  flex flex-col justify-center sm:py-12">
+    <div className="group transition-all duration-300 hover:scale-110 relative bg-secondaryblue shadow-lg cursor-pointer h-40 w-96 lg:w-80 rounded-xl overflow-hidden  flex flex-col justify-center sm:py-12">
       <div className="absolute shadow-lg transition-all duration-500 opacity-100 group-hover:opacity-0 group-hover:-translate-x-52 bg-white h-full w-36 rounded-xl overflow-hidden">
         <img className="h-full p-2" src={logoURL} />
       </div>
