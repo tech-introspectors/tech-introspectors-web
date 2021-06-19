@@ -9,7 +9,7 @@ import TechCard from "./components/TechCard";
 
 const TechnologiesWeUse = () => {
   return (
-    <div className="relative py-11 px-11 sm:p-11 md:p-24 h-auto w-screen bg-primaryblue">
+    <div className="relative py-11 px-11 md:p-14 h-auto w-screen bg-primaryblue">
       <div className="mb-11">
         <MainTitle
           outerDivColor={sectionColor}
@@ -19,7 +19,7 @@ const TechnologiesWeUse = () => {
           title="Technologies We Use"
         />
       </div>
-      <div className="flex flex-wrap justify-center gap-11">
+      <div className="flex flex-wrap justify-center items-center gap-8">
         {technologiesData.map((item, index) => {
           return (
             <TechCard
