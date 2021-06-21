@@ -2,7 +2,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.newfontsize {
-  @apply text-white text-xl font-bold;
-}
