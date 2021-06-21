@@ -1,4 +1,5 @@
-import "tailwindcss/tailwind.css";
+import "../styles/index.css";
+
 import Layout from "../components/Layout";
 import { useState, useEffect } from "react";
 import LoadingPage from "../components/LoadingPage/LoadingPage";
