@@ -8,6 +8,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.1",
     "babel-plugin-styled-components": "^1.12.0",
     "next": "10.2.3",
     "postcss-preset-env": "^6.7.0",
