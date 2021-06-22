@@ -1,13 +1,13 @@
 import OurServices from "./OurServices";
 import OurMission from "./OurMission";
+import OurTeam from "./OurTeam";
 
 const AboutPage = () => {
   return (
     <div>
       <OurServices />
-      <div className="min-h-screen bg-primaryblue">
-        <OurMission />
-      </div>
+      <OurMission />
+      <OurTeam />
     </div>
   );
 };
