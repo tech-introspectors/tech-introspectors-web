@@ -3,7 +3,6 @@ import {
   secondarytextcolor,
 } from "../../../constants/colors";
 import CustomeIcon from "../../CustomeIcon";
-import MediaIcon from "./SocailMediaIcon";
 
 const TeamCard = ({
   memberName,
