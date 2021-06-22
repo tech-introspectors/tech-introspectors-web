@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Link from "next/link";
+import { secondarylightblue } from "../constants/colors";
 
 const CustomeIcon = ({
   Icon,
@@ -60,8 +61,11 @@ const Div = styled.div`
   font-size: ${({ iconSize }) => (iconSize ? iconSize : "1.5")}rem;
   transform: scaleX(1) scaleY(1);
   transition: transform 100ms ease-in-out;
+  background: transparent;
 
   :hover {
     transform: scaleX(1.2) scaleY(1.2);
+    color: ${({ onHoverIconColor }) =>
+      onHoverIconColor ? onHoverIconColor : secondarylightblue};
   }
 `;

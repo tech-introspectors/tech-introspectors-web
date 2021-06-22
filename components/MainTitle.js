@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {
   primaryblue,
+  primarytextcolor,
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
@@ -8,6 +9,7 @@ import {
 
 const MainTitle = ({
   title,
+  description,
   bgColor,
   textColor,
   outerDivColor,
@@ -28,6 +30,7 @@ const MainTitle = ({
         <Div outerDivColor={outerDivColor}>
           <SubDiv innerDivColor={innerDivColor} />
         </Div>
+        <Description className = "text-center py-5 text-lg font-semibold">{description}</Description>
       </MainDiv>
     </>
   );
@@ -81,4 +84,8 @@ const SubDiv = styled.div`
       left: 90%;
     }
   }
+`;
+
+const Description = styled.p`
+  color: ${({descriptionColor}) => descriptionColor ? descriptionColor : primarytextcolor }
 `;

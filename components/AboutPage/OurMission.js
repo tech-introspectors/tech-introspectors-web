@@ -1,13 +1,12 @@
-import MultiCardEffect from "./../MultiCardEffect";
+import MultiCardTemplate from "../MultiCardTemplate";
 import { ourMissionData } from "./../../data/aboutUsData/aboutUsData";
 
 const OurMission = () => {
   return (
     <div className="w-screen flex justify-center items-center bg-primaryblue px-6 py-24 md:px-24">
       <div>
-        <div className="bg-secondaryblue relative p-8 rounded-3xl">
-          <div className="flex flex-col justify-between md:flex-row bg-white p-11 rounded-3xl">
-            <div className="w-full md:w-4/6">
+        <MultiCardTemplate>
+        <div className="w-full col-span-2">
               <h1 className="text-primaryblue font-bold text-2xl">
                 Our Mission
               </h1>
@@ -17,15 +16,14 @@ const OurMission = () => {
                 );
               })}
             </div>
-            <div className="w-full flex justify-end">
+            <div className="w-full h-full col-span-2 lg:col-span-1 flex items-center justify-center">
               <img
-                className="w-full md:w-1/2"
+                className="w-9/12 md:w-8/12"
                 src="images/aboutUsImg/ourMission.gif"
                 alt="our Mission"
               />
             </div>
-          </div>
-        </div>
+        </MultiCardTemplate>
       </div>
     </div>
   );
