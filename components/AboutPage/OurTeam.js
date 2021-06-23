@@ -16,6 +16,7 @@ const OurTeam = () => {
           return (
             <TeamCard
               key={index}
+              src={data.img}
               memberName={data.name}
               aboutMember={data.aboutHim}
               profession={data.profession}
