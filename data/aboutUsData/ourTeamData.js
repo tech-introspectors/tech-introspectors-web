@@ -17,23 +17,28 @@ export const teamMemberData = [
     socialMeida: [
       {
         icon: FaTwitter,
-        link: "#", // twitter account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.twitter.com/mg143pavankumar", // twitter account link
       },
       {
         icon: FaFacebookF,
-        link: "#", // facebook account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.facebook.com/mg143pavankumar.77/", // facebook account link
       },
       {
         icon: FaInstagram,
-        link: "#", // facebook account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.instagram.com/mg143pavankumar", // facebook account link
+      },
+      {
+        icon: FaLinkedinIn,
+        hasAccount: true,
+        link: "https://www.linkedin.com/in/mistry-pavan-kumar-5067b21b1/", //github account link
       },
       {
         icon: FaGithub,
-        link: "#", //github account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.github.com/mg143pavankumar", //github account link
       },
     ],
   },
@@ -47,23 +52,28 @@ export const teamMemberData = [
     socialMeida: [
       {
         icon: FaTwitter,
-        link: "#", // twitter account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.twitter.com/Saikamaldantu", // twitter account link
       },
       {
         icon: FaFacebookF,
+        hasAccount: false,
         link: "#", // facebook account link
-        hasAccout: false,
       },
       {
         icon: FaInstagram,
-        link: "#", // facebook account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.instagram.com/sai_kamal7/", // facebook account link
+      },
+      {
+        icon: FaLinkedinIn,
+        hasAccount: true,
+        link: "https://www.linkedin.com/in/dantu-sai-kamal/", //github account link
       },
       {
         icon: FaGithub,
-        link: "#", //github account link
-        hasAccout: false,
+        hasAccount: true,
+        link: "https://www.github.com/dantusaikamal/", //github account link
       },
     ],
   },
