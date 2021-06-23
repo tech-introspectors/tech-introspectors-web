@@ -28,18 +28,21 @@ const TeamCard = ({
         <div className="px-2 flex">
           {data.map((item, index) => {
             return (
-              <div className="mr-2">
-                <CustomeIcon
-                  key={index}
-                  Icon={item.icon}
-                  link={item.link}
-                  iconColor={secondarytextcolor}
-                  borderColor={secondarylightblue}
-                  iconSize="1.2"
-                  marginAll="0.5"
-                  marginLeft="-0.5"
-                />
-              </div>
+              <>
+                {item.hasAccount && (
+                  <div key={index} className="mr-2">
+                    <CustomeIcon
+                      Icon={item.icon}
+                      link={item.link}
+                      iconColor={secondarytextcolor}
+                      borderColor={secondarylightblue}
+                      iconSize="1.2"
+                      marginAll="0.5"
+                      marginLeft="-0.5"
+                    />
+                  </div>
+                )}
+              </>
             );
           })}
         </div>
