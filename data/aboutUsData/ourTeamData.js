@@ -8,6 +8,7 @@ import {
 
 export const teamMemberData = [
   {
+    img: "images/aboutUsImg/teamMemberImg/pavan.png",
     name: "M.Pavan Kumar",
     profession: "Developer",
     aboutHim:
@@ -37,6 +38,7 @@ export const teamMemberData = [
     ],
   },
   {
+    img: "images/aboutUsImg/teamMemberImg/kamal.png",
     name: "D.Sai Kamal",
     profession: "Developer",
     aboutHim:
