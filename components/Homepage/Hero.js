@@ -1,7 +1,24 @@
 const Hero = () => {
   return (
-    <div className="relative bg-primaryblue flex justify-center items-center w-full h-screen text-4xl">
-      <div className="absolute bottom-0 w-screen ">
+    <div className="relative bg-primaryblue py-24 w-screen h-auto">
+      <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
+        <div className="px-7 pb-11 md:pl-11 flex flex-col justify-center md:w-1/2">
+          <h1 className="text-4xl md:text-5xl  text-secondarylightblue font-bold mb-4">
+            Tech-Introspectors
+          </h1>
+          <h2 className="text-2xl md:text-3xl text-white font-semibold mb-3">
+            Developer Name
+          </h2>
+          <p className="text-lg md:text-xl text-secondarytextcolor">
+            We are a team of Tech enthusiast who code to bring a change!
+          </p>
+        </div>
+        <div className="z-10 w-full lg:w-9/12">
+          <img src="images/developer.svg" />
+        </div>
+      </div>
+
+      <div className="w-screen absolute bottom-0 ">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="rgba(249, 250, 251,1)"
