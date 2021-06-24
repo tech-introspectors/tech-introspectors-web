@@ -4,7 +4,7 @@ import TeamCard from "./components/TeamCard";
 
 const OurTeam = () => {
   return (
-    <div className="p-11 md:px-11 lg:p-24 w-screen">
+    <div className="py-11 px-7 md:px-11 lg:p-24 w-screen">
       <MainTitle
         title="Our Team"
         description="Meet the developers behind Tech-Introspectors!"
