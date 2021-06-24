@@ -16,10 +16,10 @@ const TeamCard = ({
 
   return (
     <Zoom left>
-      <div className="group rounded-3xl overflow-hidden flex flex-col sm:flex-row h-5/6 sm:h-auto  w-[450px] sm:w-[500px] my-5 md:m-5 shadow-xl bg-primaryblue">
-        <div className="showdow-lg overflow-hidden rounded-3xl h-[70vh] sm:h-[250px] sm:w-40 bg-white">
+      <div className="group rounded-3xl overflow-hidden flex flex-col sm:flex-row h-auto  w-[450px] sm:w-[500px] my-5 md:m-5 shadow-xl bg-primaryblue">
+        <div className="showdow-lg overflow-hidden rounded-3xl h-[75vh]  sm:h-[250px] sm:w-40 bg-white">
           <img
-            className="object-cover"
+            className="object-cover w-full h-full"
             src={src || "images/aboutUsImg/teamMemberImg/programmer.svg"}
           />
         </div>
@@ -33,10 +33,11 @@ const TeamCard = ({
           <div className="px-2 flex">
             {data.map((item, index) => {
               return (
-                <>
+                <div key={index}>
                   {item.hasAccount && (
                     <div key={index} className="mr-2">
                       <CustomeIcon
+                        key={index}
                         Icon={item.icon}
                         link={item.link}
                         iconColor={secondarytextcolor}
@@ -47,7 +48,7 @@ const TeamCard = ({
                       />
                     </div>
                   )}
-                </>
+                </div>
               );
             })}
           </div>
