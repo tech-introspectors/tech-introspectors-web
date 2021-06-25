@@ -1,4 +1,9 @@
+import TypeWriting from "../TypeWriting";
+
 const Hero = () => {
+  const theme = {
+    textColor: "#ffffff",
+  };
   return (
     <div className="relative bg-primaryblue py-24 w-screen h-auto">
       <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
@@ -6,9 +11,10 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl  text-secondarylightblue font-bold mb-4">
             Tech-Introspectors
           </h1>
-          <h2 className="text-2xl md:text-3xl text-white font-semibold mb-3">
-            Developer Name
-          </h2>
+
+          <div className="h-[10vh] mb-4">
+            <TypeWriting />
+          </div>
           <p className="text-lg md:text-xl text-secondarytextcolor">
             We are a team of Tech enthusiast who code to bring a change!
           </p>
