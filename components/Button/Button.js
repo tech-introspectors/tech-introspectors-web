@@ -6,7 +6,7 @@ const secondaryColor = "#14CDDB";
 const Button = styled.button`
   background-color: ${(props) =>
     props.theme.bgSecondaryColor || secondaryColor};
-  padding: ${(props) => props.theme.paddingAll || "10"}px;
+  padding: ${(props) => props.theme.paddingAll || "12"}px;
   color: ${(props) => props.theme.textColor || "#fff"};
   border: none;
   outline: none;

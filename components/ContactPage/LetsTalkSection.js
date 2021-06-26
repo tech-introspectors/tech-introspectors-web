@@ -26,7 +26,7 @@ const LetsTalkSection = () => {
         {/* Left size content */}
         <div className="bg-white w-full p-5 sm:p-11 shadow-xl rounded-3xl">
           <div>
-            <h2 className="text-2xl animate-bounce font-bold text-primaryblue mb-8">
+            <h2 className="text-2xl font-bold text-primaryblue mb-8">
               Reach out to us if you are
             </h2>
 

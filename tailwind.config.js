@@ -18,6 +18,9 @@ module.exports = {
       fontFamily: {
         sans: ["Open Sans", "sans-serif"],
       },
+      boxShadow: {
+        "lightBlue-xl": "0 20px 25px -5px rgba(14,165,233,0.3)",
+      },
     },
   },
   variants: {
