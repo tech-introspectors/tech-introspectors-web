@@ -5,7 +5,7 @@ const Hero = () => {
     textColor: "#ffffff",
   };
   return (
-    <div className="relative bg-primaryblue py-24 w-screen h-auto">
+    <div className="relative bg-primaryblue py-24 w-screen h-auto overflow-hidden">
       <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
         <div className="px-7 pb-11 md:pl-11 flex flex-col justify-center md:w-1/2">
           <h1 className="text-4xl md:text-5xl  text-secondarylightblue font-bold mb-4">

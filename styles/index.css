@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .inputForm {
+    @apply outline-none h-12 focus:border-secondaryblue px-2 w-full border-2 rounded-md border-secondarytextcolor;
+  }
+
+  .multiCardTemplateSection {
+    @apply w-screen flex justify-center items-center bg-primaryblue px-6 py-24 md:px-24;
+  }
+}
