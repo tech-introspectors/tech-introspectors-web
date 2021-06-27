@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { secondarylightblue } from "../../../constants/colors";
+import { secondarylightblue } from "../../../../constants/colors";
+
 const ListCard = ({ data, animationDelay }) => {
   return (
     <div className="py-4 px-5 my-5 relative group overflow-hidden rounded-xl shadow-lg flex  items-center">

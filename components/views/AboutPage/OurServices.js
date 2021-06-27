@@ -3,11 +3,10 @@ import {
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from "../../constants/colors";
-import { ourServices } from "../../data/aboutUsData/aboutUsData";
-import MainTitle from "./../MainTitle";
+} from "../../../constants/colors";
+import { ourServices } from "../../../data/aboutUsData/aboutUsData";
+import MainTitle from "../../MainTitle";
 import ListCard from "./components/ListCard";
-import Fade from "react-reveal/Fade";
 
 const OurServices = () => {
   return (

@@ -1,8 +1,8 @@
 import {
   contactData,
   emailAddressData,
-} from "../../data/contactUsData/contactData";
-import MultiCardTemplate from "../MultiCardTemplate";
+} from "../../../data/contactUsData/contactData";
+import MultiCardTemplate from "../../MultiCardTemplate";
 import Fade from "react-reveal/Fade";
 
 const ContactSection = () => {

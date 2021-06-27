@@ -1,5 +1,5 @@
 import Slider from "react-slick";
-import { topProjectsData } from "../../../data/projectsData/topProjectsData";
+import { topProjectsData } from "../../../../data/projectsData/topProjectsData";
 import ProjectDemoCard from "./ProjectDemoCard";
 
 // Import css files

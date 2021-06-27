@@ -1,5 +1,5 @@
-import { teamMemberData } from "../../data/aboutUsData/ourTeamData";
-import MainTitle from "../MainTitle";
+import { teamMemberData } from "../../../data/aboutUsData/ourTeamData";
+import MainTitle from "../../MainTitle";
 import TeamCard from "./components/TeamCard";
 
 const OurTeam = () => {

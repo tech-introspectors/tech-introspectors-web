@@ -3,10 +3,10 @@ import {
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from "../../constants/colors";
-import { whyToReachUsData } from "../../data/contactUsData/whyToReachUsData";
-import MainTitle from "../MainTitle";
-import Fade from "react-reveal/Fade";
+} from "../../../constants/colors";
+import { whyToReachUsData } from "../../../data/contactUsData/whyToReachUsData";
+import MainTitle from "../../MainTitle";
+// import Fade from "react-reveal/Fade";
 
 const LetsTalkSection = () => {
   return (

@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
-import { sectionColor, secondaryblue } from "../../constants/colors";
-import MainTitle from "../MainTitle";
-import Button from "../Button/Button";
+import { sectionColor, secondaryblue } from "../../../constants/colors";
+import MainTitle from "../../MainTitle";
+import Button from "../../Button/Button";
 import CaroselSlider from "./components/CaroselSlider";
 
 const OurTopProjects = () => {
