@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AboutPage from "../components/AboutPage/AboutPage";
+import AboutPage from "../components/views/AboutPage/AboutPage";
 
 const AboutUs = () => {
   return (

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ProjectPage from "../components/ProjectPage/ProjectPage";
+import ProjectPage from "../components/views/ProjectPage/ProjectPage";
 
 const OurProjects = () => {
   return (

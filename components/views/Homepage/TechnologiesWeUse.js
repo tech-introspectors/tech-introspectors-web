@@ -2,9 +2,9 @@ import {
   primaryblue,
   secondarylightblue,
   sectionColor,
-} from "../../constants/colors";
-import { technologiesData } from "../../data/technologiesData/technologiesData";
-import MainTitle from "../MainTitle";
+} from "../../../constants/colors";
+import { technologiesData } from "../../../data/technologiesData/technologiesData";
+import MainTitle from "../../MainTitle";
 import TechCard from "./components/TechCard";
 
 const TechnologiesWeUse = () => {

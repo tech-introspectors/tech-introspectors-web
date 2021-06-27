@@ -1,12 +1,12 @@
-import { typeOfprojectsData } from "../../data/projectsData/typeOfprojectsData";
+import { typeOfprojectsData } from "../../../data/projectsData/typeOfprojectsData";
 import ProjectTypeCard from "./components/ProjectTypeCard";
-import MainTitle from "./../MainTitle";
+import MainTitle from "../../MainTitle";
 import {
   primaryblue,
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from "../../constants/colors";
+} from "../../../constants/colors";
 
 const ProjectPage = () => {
   return (

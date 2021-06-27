@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ContactPage from "../components/ContactPage/ContactPage";
+import ContactPage from "../components/views/ContactPage/ContactPage";
 
 const ContactUs = () => {
   return (

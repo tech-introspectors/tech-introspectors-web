@@ -1,8 +1,8 @@
 import {
   secondarylightblue,
   secondarytextcolor,
-} from "../../../constants/colors";
-import CustomeIcon from "../../CustomeIcon";
+} from "../../../../constants/colors";
+import CustomeIcon from "../../../CustomeIcon";
 import Zoom from "react-reveal/Zoom";
 
 const TeamCard = ({

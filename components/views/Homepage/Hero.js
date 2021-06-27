@@ -1,4 +1,4 @@
-import TypeWriting from "../TypeWriting";
+import TypeWriting from "../../TypeWriting";
 
 const Hero = () => {
   const theme = {
