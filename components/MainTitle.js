@@ -1,11 +1,13 @@
-import styled from "styled-components";
+import Fade from 'react-reveal/Fade';
+import styled from 'styled-components';
+
 import {
   primaryblue,
   primarytextcolor,
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from "../constants/colors";
+} from '../constants/colors';
 
 const MainTitle = ({
   title,
@@ -21,16 +23,22 @@ const MainTitle = ({
         bgColor={bgColor}
         className="py-2 flex justify-center items-center flex-col"
       >
-        <Heading
-          textColor={textColor}
-          className="text-xl md:text-2xl lg:text-3xl font-bold uppercase"
-        >
-          {title}
-        </Heading>
-        <Div outerDivColor={outerDivColor}>
-          <SubDiv innerDivColor={innerDivColor} />
-        </Div>
-        <Description className = "text-center py-5 text-lg font-semibold">{description}</Description>
+        <Fade bottom>
+          <Heading
+            textColor={textColor}
+            className="text-xl md:text-2xl lg:text-3xl font-bold uppercase"
+          >
+            {title}
+          </Heading>
+          <Div outerDivColor={outerDivColor}>
+            <SubDiv innerDivColor={innerDivColor} />
+          </Div>
+        </Fade>
+        <Fade top>
+          <Description className="text-center py-5 text-lg font-semibold">
+            {description}
+          </Description>
+        </Fade>
       </MainDiv>
     </>
   );
@@ -87,5 +95,6 @@ const SubDiv = styled.div`
 `;
 
 const Description = styled.p`
-  color: ${({descriptionColor}) => descriptionColor ? descriptionColor : primarytextcolor }
+  color: ${({ descriptionColor }) =>
+    descriptionColor ? descriptionColor : primarytextcolor};
 `;

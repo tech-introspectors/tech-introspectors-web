@@ -29,7 +29,11 @@ export const technologiesData = [
     techName: "Machine Learning",
   },
   {
-    logoURL: "images/techLogos/python.svg",
-    techName: "Python",
+    logoURL: "images/techLogos/firebase.svg",
+    techName: "Firebase",
+  },
+  {
+    logoURL: "images/techLogos/amazon-web-services.svg",
+    techName: "Amazon Web Services",
   },
 ];

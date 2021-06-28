@@ -1,12 +1,13 @@
+import Fade from 'react-reveal/Fade';
+
 import {
   primaryblue,
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from "../../../constants/colors";
-import { whyToReachUsData } from "../../../data/contactUsData/whyToReachUsData";
-import MainTitle from "../../MainTitle";
-// import Fade from "react-reveal/Fade";
+} from '../../../constants/colors';
+import { whyToReachUsData } from '../../../data/contactUsData/whyToReachUsData';
+import MainTitle from '../../MainTitle';
 
 const LetsTalkSection = () => {
   return (
@@ -24,6 +25,7 @@ const LetsTalkSection = () => {
 
       <div className="flex flex-col-reverse md:flex-row w-screen px-7 md:px-11">
         {/* Left size content */}
+
         <div className="bg-white w-full p-5 sm:p-11 shadow-xl rounded-3xl">
           <div>
             <h2 className="text-2xl font-bold text-primaryblue mb-8">
@@ -32,8 +34,11 @@ const LetsTalkSection = () => {
 
             {whyToReachUsData.map((item, index) => {
               return (
-                <div className="border-l-4 border-primaryblue bg-primaryblue/5 w-full h-full">
-                  <p className="text-gray-900 my-5 pl-2.5 py-2" key={index}>
+                <div
+                  key={index}
+                  className="border-l-4 border-primaryblue bg-primaryblue/5 w-full h-full"
+                >
+                  <p className="text-gray-900 my-5 pl-2.5 py-2">
                     {item.purpose}
                   </p>
                 </div>
@@ -44,11 +49,13 @@ const LetsTalkSection = () => {
 
         {/* Right size image */}
         <div className="w-full relative flex justify-center items-center">
-          <img
-            className="lg:absolute max-w-5xl w-full lg:p-8"
-            src="images/contactUsImg/letsTalk.svg"
-            loading="lazy"
-          />
+          <Fade left>
+            <img
+              className="lg:absolute max-w-5xl w-full lg:p-8"
+              src="images/contactUsImg/letsTalk.svg"
+              loading="lazy"
+            />
+          </Fade>
         </div>
       </div>
     </div>

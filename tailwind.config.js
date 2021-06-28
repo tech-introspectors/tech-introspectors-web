@@ -19,7 +19,8 @@ module.exports = {
         sans: ["Open Sans", "sans-serif"],
       },
       boxShadow: {
-        "lightBlue-xl": "0 20px 25px -5px rgba(14,165,233,0.3)",
+        "lb-xl": "-5px 10px 20px rgba(14,165,233,0.3)",
+        "lb-2xl": "0 20px 25px -5px rgba(14,165,233,0.3)",
       },
     },
   },
