@@ -1,12 +1,14 @@
+import Fade from 'react-reveal/Fade';
+
 import {
   primaryblue,
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from "../../../constants/colors";
-import { ourServices } from "../../../data/aboutUsData/aboutUsData";
-import MainTitle from "../../MainTitle";
-import ListCard from "./components/ListCard";
+} from '../../../constants/colors';
+import { ourServices } from '../../../data/aboutUsData/aboutUsData';
+import MainTitle from '../../MainTitle';
+import ListCard from './components/ListCard';
 
 const OurServices = () => {
   return (
@@ -29,10 +31,14 @@ const OurServices = () => {
           ))}
         </div>
       </div>
-
-      <div className="w-full h-full md:w-1/2 md:p-2 lg:p-11">
-        <img className="object-cover" src="images/aboutUsImg/ourServices.svg" />
-      </div>
+      <Fade right>
+        <div className="w-full h-full md:w-1/2 md:p-2 lg:p-11">
+          <img
+            className="object-cover"
+            src="images/aboutUsImg/ourServices.svg"
+          />
+        </div>
+      </Fade>
     </div>
   );
 };

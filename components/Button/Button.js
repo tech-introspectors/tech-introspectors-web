@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const primaryColor = "#022F47";
 const secondaryColor = "#14CDDB";
@@ -21,6 +21,7 @@ const Button = styled.button`
   z-index: 1;
   font-weight: ${(props) => props.theme.fontWeight};
   transition: color 500ms, box-shadow 400ms ease-in-out;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
   ::before {
     content: "";

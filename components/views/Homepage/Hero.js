@@ -1,4 +1,6 @@
-import TypeWriting from "../../TypeWriting";
+import Fade from 'react-reveal/Fade';
+
+import TypeWriting from '../../TypeWriting';
 
 const Hero = () => {
   const theme = {
@@ -8,20 +10,29 @@ const Hero = () => {
     <div className="relative bg-primaryblue py-24 w-screen h-auto overflow-hidden">
       <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
         <div className="px-7 pb-11 md:pl-11 flex flex-col justify-center md:w-1/2">
-          <h1 className="text-4xl md:text-5xl  text-secondarylightblue font-bold mb-4">
-            Tech-Introspectors
-          </h1>
+          <Fade bottom>
+            {" "}
+            <h1 className="text-4xl md:text-5xl  text-secondarylightblue font-bold mb-4">
+              Tech-Introspectors
+            </h1>
+          </Fade>
 
-          <div className="h-[10vh] mb-4">
-            <TypeWriting />
+          <Fade top>
+            <div className="h-[10vh] mb-4">
+              <TypeWriting />
+            </div>
+          </Fade>
+          <Fade bottom>
+            <p className="text-lg md:text-xl text-secondarytextcolor">
+              We are a team of Tech enthusiast who code to bring a change!
+            </p>
+          </Fade>
+        </div>
+        <Fade top>
+          <div className="z-10 w-full lg:w-9/12">
+            <img src="images/developer.svg" />
           </div>
-          <p className="text-lg md:text-xl text-secondarytextcolor">
-            We are a team of Tech enthusiast who code to bring a change!
-          </p>
-        </div>
-        <div className="z-10 w-full lg:w-9/12">
-          <img src="images/developer.svg" />
-        </div>
+        </Fade>
       </div>
 
       <div className="w-screen absolute bottom-0 ">

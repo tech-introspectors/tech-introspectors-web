@@ -1,5 +1,5 @@
-import Button from "./../../../Button/Button";
-import InputForm from "./InputForm";
+import Button from '../../../Button/Button';
+import InputForm from './InputForm';
 
 const Form = () => {
   const btnTheme = {
@@ -13,7 +13,7 @@ const Form = () => {
   };
 
   return (
-    <div className="bg-white w-full p-5 sm:p-11 shadow-lightBlue-xl rounded-3xl">
+    <div className="bg-white w-full p-5 sm:p-11 shadow-lb-xl rounded-3xl">
       <form>
         <InputForm placeholder="Name" name="name" />
         <InputForm placeholder="Email" name="email" />

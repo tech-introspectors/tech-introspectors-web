@@ -1,6 +1,7 @@
-import MultiCardTemplate from "../../MultiCardTemplate";
-import { ourMissionData } from "./../../../data/aboutUsData/aboutUsData";
-import Fade from "react-reveal/Fade";
+import Fade from 'react-reveal/Fade';
+
+import { ourMissionData } from '../../../data/aboutUsData/aboutUsData';
+import MultiCardTemplate from '../../MultiCardTemplate';
 
 const OurMission = () => {
   return (
