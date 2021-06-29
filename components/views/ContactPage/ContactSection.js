@@ -1,5 +1,4 @@
 import Fade from 'react-reveal/Fade';
-import styled from 'styled-components';
 
 import {
   contactData,
@@ -27,14 +26,13 @@ const ContactSection = () => {
                   })}
                 </div>
               </div>
-              <FadeRight>
-                <div className="w-full md:w-11/12">
-                  <img
-                    className="w-full"
-                    src="images/contactUsImg/contact-us.svg"
-                  />
-                </div>
-              </FadeRight>
+
+              <div className="w-full md:w-11/12">
+                <img
+                  className="w-full"
+                  src="images/contactUsImg/contact-us.svg"
+                />
+              </div>
             </div>
           </MultiCardTemplate>
         </Fade>
@@ -44,22 +42,3 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
-
-const FadeRight = styled.div`
-  animation-fill-mode: both;
-  animation-duration: 2000ms;
-  animation-delay: 0ms;
-  animation-iteration-count: 1;
-  opacity: 1;
-  animation-name: fadeRight;
-  transform: translateX(120%);
-
-  @keyframes fadeRight {
-    0% {
-      transform: translateX(120%);
-    }
-    100% {
-      transform: translateX(0%);
-    }
-  }
-`;

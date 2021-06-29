@@ -1,5 +1,3 @@
-import Fade from 'react-reveal/Fade';
-
 import {
   primaryblue,
   secondarydarkblue,
@@ -49,13 +47,11 @@ const LetsTalkSection = () => {
 
         {/* Right size image */}
         <div className="w-full relative flex justify-center items-center">
-          <Fade left>
-            <img
-              className="lg:absolute max-w-5xl w-full lg:p-8"
-              src="images/contactUsImg/letsTalk.svg"
-              loading="lazy"
-            />
-          </Fade>
+          <img
+            className="lg:absolute max-w-5xl w-full lg:p-8"
+            src="images/contactUsImg/letsTalk.svg"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

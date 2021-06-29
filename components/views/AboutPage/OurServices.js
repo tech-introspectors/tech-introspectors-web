@@ -1,5 +1,3 @@
-import Fade from 'react-reveal/Fade';
-
 import {
   primaryblue,
   secondarydarkblue,
@@ -31,14 +29,10 @@ const OurServices = () => {
           ))}
         </div>
       </div>
-      <Fade right>
-        <div className="w-full h-full md:w-1/2 md:p-2 lg:p-11">
-          <img
-            className="object-cover"
-            src="images/aboutUsImg/ourServices.svg"
-          />
-        </div>
-      </Fade>
+
+      <div className="w-full h-full md:w-1/2 md:p-2 lg:p-11">
+        <img className="object-cover" src="images/aboutUsImg/ourServices.svg" />
+      </div>
     </div>
   );
 };
