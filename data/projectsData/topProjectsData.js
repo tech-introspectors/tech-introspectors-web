@@ -13,7 +13,7 @@ export const topProjectsData = [
   },
   {
     id: 3,
-    projectImg: "images/projectsImg/topProjectImg/basic-banking-system.png",
+    projectImg: "images/projectsImg/topProjectImg/basic-banking-app.jpg",
     projectName: "Basic Banking App ",
     description:
       "Banking mobile application for transactions created Flutter and SQLite.",
@@ -46,7 +46,7 @@ export const topProjectsData = [
   },
     {
     id: 8,
-    projectImg: "images/projectsImg/topProjectImg/basic-banking-system.png",
+    projectImg: "images/projectsImg/topProjectImg/music-flutter.jpeg",
     projectName: "Music player",
     description: "A music player built using Flutter that can play music.",
   },
