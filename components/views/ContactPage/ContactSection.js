@@ -1,16 +1,16 @@
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
 import {
   contactData,
   emailAddressData,
-} from '../../../data/contactUsData/contactData';
-import MultiCardTemplate from '../../MultiCardTemplate';
+} from "../../../data/contactUsData/contactData";
+import MultiCardTemplate from "../../MultiCardTemplate";
 
 const ContactSection = () => {
   return (
     <div className="h-auto w-screen px-5  md:px-11 py-24 bg-gray-50">
       <div>
-        <Fade>
+        <Fade bottom>
           <MultiCardTemplate>
             <div className="grid md:grid-cols-2">
               <div className="w-full flex flex-col justify-center items-center col-span-1">

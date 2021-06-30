@@ -3,13 +3,14 @@ import {
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
-} from '../../../constants/colors';
-import { whyToReachUsData } from '../../../data/contactUsData/whyToReachUsData';
-import MainTitle from '../../MainTitle';
+} from "../../../constants/colors";
+import { whyToReachUsData } from "../../../data/contactUsData/whyToReachUsData";
+import MainTitle from "../../MainTitle";
+import Slide from "react-reveal";
 
 const LetsTalkSection = () => {
   return (
-    <div className="h-auto w-screen flex flex-col justify-center items-center bg-gray-50 px-6 py-24 md:px-24">
+    <div className="h-auto w-full flex flex-col justify-center items-center bg-gray-50 px-6 py-24 md:px-24">
       <div className="my-11 w-full">
         <MainTitle
           outerDivColor={primaryblue}
@@ -47,11 +48,13 @@ const LetsTalkSection = () => {
 
         {/* Right size image */}
         <div className="w-full relative flex justify-center items-center">
-          <img
-            className="lg:absolute max-w-5xl w-full lg:p-8"
-            src="images/contactUsImg/letsTalk.svg"
-            loading="lazy"
-          />
+          <Slide top>
+            <img
+              className="lg:absolute max-w-5xl w-full lg:p-8"
+              src="images/contactUsImg/letsTalk.svg"
+              loading="lazy"
+            />
+          </Slide>
         </div>
       </div>
     </div>

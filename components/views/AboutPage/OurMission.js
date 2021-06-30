@@ -1,13 +1,13 @@
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
 
-import { ourMissionData } from '../../../data/aboutUsData/aboutUsData';
-import MultiCardTemplate from '../../MultiCardTemplate';
+import { ourMissionData } from "../../../data/aboutUsData/aboutUsData";
+import MultiCardTemplate from "../../MultiCardTemplate";
 
 const OurMission = () => {
   return (
     <div className="w-screen flex justify-center items-center bg-primaryblue px-6 py-24 md:px-24">
       <div>
-        <Fade>
+        <Fade top>
           <MultiCardTemplate>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 p-5">
               <div className="w-full col-span-2">
