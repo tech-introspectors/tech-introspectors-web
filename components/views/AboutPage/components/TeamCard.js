@@ -3,7 +3,7 @@ import {
   secondarytextcolor,
 } from "../../../../constants/colors";
 import CustomeIcon from "../../../CustomeIcon";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const TeamCard = ({
   memberName,
@@ -15,11 +15,11 @@ const TeamCard = ({
   const data = socaiMediaLink.socialMeida;
 
   return (
-    <Zoom left>
+    <Fade bottom>
       <div className="group rounded-3xl overflow-hidden flex flex-col sm:flex-row h-auto  w-[450px] sm:w-[500px] my-5 md:m-5 shadow-xl bg-primaryblue">
         <div className="showdow-lg overflow-hidden rounded-3xl h-[75vh]  sm:h-[250px] sm:w-40 bg-white">
           <img
-            className="object-cover w-full h-full"
+            className="object-center object-cover w-full h-full"
             src={src || "images/aboutUsImg/teamMemberImg/programmer.svg"}
           />
         </div>
@@ -54,7 +54,7 @@ const TeamCard = ({
           </div>
         </div>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 

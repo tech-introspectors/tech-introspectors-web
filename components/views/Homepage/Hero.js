@@ -1,27 +1,34 @@
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
+import styled from "styled-components";
+import {
+  primaryblue,
+  secondarylightblue,
+  secondarytextcolor,
+} from "../../../constants/colors";
 
-import TypeWriting from '../../TypeWriting';
+import TypeWriting from "../../TypeWriting";
 
 const Hero = () => {
-  const theme = {
-    textColor: "#ffffff",
-  };
   return (
     <div className="relative bg-primaryblue py-24 w-screen h-auto overflow-hidden">
       <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
         <div className="px-7 pb-11 md:pl-11 flex flex-col justify-center md:w-1/2">
           <Fade bottom>
             {" "}
-            <h1 className="text-4xl md:text-5xl  text-secondarylightblue font-bold mb-4">
+            <Title
+              datatype="Tech-Introspectors"
+              className="text-4xl md:text-5xl font-bold mb-4"
+            >
               Tech-Introspectors
-            </h1>
+            </Title>
           </Fade>
 
-          <Fade top>
+          <Slide top>
             <div className="h-[10vh] mb-4">
               <TypeWriting />
             </div>
-          </Fade>
+          </Slide>
           <Fade bottom>
             <p className="text-lg md:text-xl text-secondarytextcolor">
               We are a team of Tech enthusiast who code to bring a change!
@@ -49,3 +56,37 @@ const Hero = () => {
 };
 
 export default Hero;
+
+const Title = styled.h1`
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+
+  ::before {
+    content: "Tech-Introspectors ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid ${secondarylightblue};
+    width: 0;
+    height: 100%;
+    color: ${secondarylightblue};
+
+    animation: animate 6s linear infinite alternate;
+    --webkit-animation: animate 6s linear infinite alternate;
+
+    @keyframes animate {
+      0% {
+        width: 0;
+      }
+      50% {
+        width: 100%;
+      }
+      100% {
+        width: 0;
+      }
+    }
+  }
+`;
