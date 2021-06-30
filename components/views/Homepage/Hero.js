@@ -61,6 +61,7 @@ const Title = styled.h1`
   color: #ffffff;
   position: relative;
   display: inline-block;
+  white-space: nowrap;
 
   ::before {
     content: "Tech-Introspectors ";
