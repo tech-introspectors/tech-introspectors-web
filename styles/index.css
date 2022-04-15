@@ -3,12 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-}
-
 @layer components {
   .inputForm {
     @apply outline-none h-12 focus:border-secondaryblue px-2 w-full border-2 rounded-md border-secondarytextcolor;
