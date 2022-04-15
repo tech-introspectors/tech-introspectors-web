@@ -3,7 +3,6 @@ import ProjectTypeCard from "./components/ProjectTypeCard";
 import MainTitle from "../../MainTitle";
 import {
   primaryblue,
-  primarytextcolor,
   secondarydarkblue,
   secondarylightblue,
   sectionColor,
