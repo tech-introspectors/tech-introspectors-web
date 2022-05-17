@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const primaryColor = "#022F47";
 const secondaryColor = "#14CDDB";
@@ -10,7 +10,6 @@ const Button = styled.button`
   color: ${(props) => props.theme.textColor || "#fff"};
   border: none;
   outline: none;
-  outline-width: 0;
   cursor: pointer;
   font-size: ${(props) => props.theme.fontSize || "18px"}px;
   border-radius: ${(props) => props.theme.borderRadius || "10px"};
@@ -20,7 +19,7 @@ const Button = styled.button`
   position: relative;
   z-index: 1;
   font-weight: ${(props) => props.theme.fontWeight};
-  transition: color 500ms, box-shadow 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
   ::before {
@@ -36,6 +35,7 @@ const Button = styled.button`
     border-bottom-left-radius: ${(props) => props.theme.borderRadius || "10px"};
     transition: width 500ms, opacity 250ms linear;
     z-index: -1;
+    outline: none;
   }
 
   ::after {
@@ -45,7 +45,7 @@ const Button = styled.button`
     right: 0;
     width: 50%;
     height: 100%;
-    outline-width: 0;
+    outline: none;
     background-color: ${(props) => props.theme.bgPrimaryColor || primaryColor};
     border-top-right-radius: ${(props) => props.theme.borderRadius || "10px"};
     border-bottom-right-radius: ${(props) =>
