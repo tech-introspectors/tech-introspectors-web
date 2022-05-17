@@ -2,7 +2,8 @@ import {
   typeOfprojectsData,
   projectsShowCaseData,
 } from "../../../data/projectsData/typeOfprojectsData";
-import ProjectTypeCard from "./components/ProjectTypeCard";
+import { ProjectCard, ProjectTypeCard } from "./components";
+
 import MainTitle from "../../MainTitle";
 import {
   primaryblue,
@@ -10,11 +11,10 @@ import {
   secondarylightblue,
   sectionColor,
 } from "../../../constants/colors";
-import ProjectCard from "./components/card/ProjectCard";
 
 const ProjectPage = () => {
   return (
-    <div className="relative pt-11 md:pt-14 h-auto w-screen bg-primaryblue">
+    <div className="relative pt-11 md:pt-14 h-auto w-full bg-primaryblue">
       <div className="my-11">
         <MainTitle
           outerDivColor={sectionColor}
@@ -66,8 +66,11 @@ const ProjectPage = () => {
           })}
         </div>
       </div>
-      <div className="w-full h-screen bg-primaryblue px-11" id="webDevelopment">
-        <div className="pt-24">
+      <div
+        className="w-full h-auto bg-primaryblue py-10 px-11"
+        id="webDevelopment"
+      >
+        <div className="pt-16">
           <MainTitle
             outerDivColor={sectionColor}
             innerDivColor={secondarylightblue}
@@ -94,8 +97,11 @@ const ProjectPage = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-screen bg-gray-50 px-11" id="machineLearning">
-        <div className="pt-24">
+      <div
+        className="w-full h-auto bg-gray-50 px-11 py-10"
+        id="machineLearning"
+      >
+        <div className="pt-16">
           <MainTitle
             outerDivColor={primaryblue}
             innerDivColor={secondarylightblue}
