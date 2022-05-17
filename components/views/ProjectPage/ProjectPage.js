@@ -1,4 +1,7 @@
-import { typeOfprojectsData } from "../../../data/projectsData/typeOfprojectsData";
+import {
+  typeOfprojectsData,
+  projectsShowCaseData,
+} from "../../../data/projectsData/typeOfprojectsData";
 import ProjectTypeCard from "./components/ProjectTypeCard";
 import MainTitle from "../../MainTitle";
 import {
@@ -7,6 +10,7 @@ import {
   secondarylightblue,
   sectionColor,
 } from "../../../constants/colors";
+import ProjectCard from "./components/card/ProjectCard";
 
 const ProjectPage = () => {
   return (
@@ -34,7 +38,7 @@ const ProjectPage = () => {
       </div>
 
       <div
-        className="w-full h-screen bg-gray-50 mt-20  px-11"
+        className="w-full h-auto py-10 bg-gray-50 mt-20  px-11"
         id="mobileAppDevelopment"
       >
         <div className="pt-24">
@@ -46,6 +50,21 @@ const ProjectPage = () => {
             title="Mobile App Development"
           />
         </div>
+
+        <div className="flex flex-wrap justify-center gap-5 w-[95%] mx-auto">
+          {projectsShowCaseData[0].mobileAppProjects.map((data, index) => {
+            return (
+              <ProjectCard
+                key={index}
+                projectImgSrc={data.projectImgSrc}
+                projectCategory={data.category}
+                projectDemoLink={data.projectDemoLink}
+                projectName={data.projectName}
+                projectDescription={data.projectDescription}
+              />
+            );
+          })}
+        </div>
       </div>
       <div className="w-full h-screen bg-primaryblue px-11" id="webDevelopment">
         <div className="pt-24">
@@ -56,6 +75,23 @@ const ProjectPage = () => {
             bgColor={primaryblue}
             title="Web Development"
           />
+
+          <div className="flex flex-wrap justify-center gap-5 w-[95%] mx-auto">
+            {projectsShowCaseData[1].webDevelopmentProjects.map(
+              (data, index) => {
+                return (
+                  <ProjectCard
+                    key={index}
+                    projectImgSrc={data.projectImgSrc}
+                    projectCategory={data.category}
+                    projectDemoLink={data.projectDemoLink}
+                    projectName={data.projectName}
+                    projectDescription={data.projectDescription}
+                  />
+                );
+              }
+            )}
+          </div>
         </div>
       </div>
       <div className="w-full h-screen bg-gray-50 px-11" id="machineLearning">
@@ -67,6 +103,21 @@ const ProjectPage = () => {
             bgColor={sectionColor}
             title="Machine Learning"
           />
+
+          <div className="flex flex-wrap justify-center gap-5 w-[95%] mx-auto">
+            {projectsShowCaseData[2].mlProjects.map((data, index) => {
+              return (
+                <ProjectCard
+                  key={index}
+                  projectImgSrc={data.projectImgSrc}
+                  projectCategory={data.category}
+                  projectDemoLink={data.projectDemoLink}
+                  projectName={data.projectName}
+                  projectDescription={data.projectDescription}
+                />
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

@@ -14,8 +14,146 @@ export const typeOfprojectsData = [
     img: "images/projectsImg/web-development.svg",
     type: "Machine Learning",
   },
-  // {
-  //   img: "images/projectsImg/app-development.svg",
-  //   type: "Web Development",
-  // },
+];
+
+export const projectsShowCaseData = [
+  {
+    mobileAppProjects: [
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+    ],
+  },
+  {
+    webDevelopmentProjects: [
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+    ],
+  },
+
+  {
+    mlProjects: [
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+      {
+        category: "Mobile APP",
+        projectDemoLink: "/#",
+        projectImgSrc:
+          "/images/projectsImg/topProjectImg/basic-banking-app.jpg",
+        projectName: "Banking System",
+        projectDescription:
+          "It's a banking system application where user can perform transaction",
+      },
+    ],
+  },
 ];

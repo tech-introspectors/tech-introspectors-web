@@ -44,7 +44,7 @@ const CaroselSlider = () => {
     ],
   };
   return (
-    <div className="overflow-hidden bg-gray-50">
+    <div className="overflow-hidden bg-gray-50 pointer-events-none">
       <Slider {...settings}>
         {topProjectsData.map((item, index) => {
           return (
