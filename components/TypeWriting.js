@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 const words = [
   "Mistry Pavan Kumar",
   "Dantu Sai Kamal",
-  "We are Developers and Programmers.",
+  "We are Developers.",
 ];
 
 const TypeWriting = () => {

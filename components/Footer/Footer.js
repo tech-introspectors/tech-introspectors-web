@@ -23,7 +23,7 @@ const Footer = () => {
             onClick={() => router.push("/")}
             className="cursor-pointer text-secondarylightblue font-bold text-3xl text-center whitespace-nowrap"
           >
-            Tech-Introspectors
+            Tech Introspectors
           </h2>
         </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
             Contact Us
           </h2>
           <div className="text-secondarytextcolor space-y-2 ">
-            <p>techintrospectors@gmail.com</p>
+            <p>teamintrospectors@gmail.com</p>
             <p>+91 9177114722</p>
             <p>+91 8688668145</p>
           </div>

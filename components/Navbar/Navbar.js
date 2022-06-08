@@ -21,7 +21,7 @@ const Navbar = () => {
               className="cursor-pointer inline-block"
               onClick={() => router.push("/")}
             >
-              Tech-Introspectors
+              Tech Introspectors
             </h1>
           </div>
           <div className="flex text-secondarytextcolor space-x-10 last:px-5">
