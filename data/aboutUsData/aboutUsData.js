@@ -1,6 +1,6 @@
 export const ourServices = [
   {
-    service: "We build web and mobile applications.",
+    service: "We build Web and Mobile applications.",
     animationDelay: "0s",
   },
   {

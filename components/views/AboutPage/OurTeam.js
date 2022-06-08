@@ -7,7 +7,7 @@ const OurTeam = () => {
     <div className="py-11 px-7 md:px-11 lg:p-24 w-screen">
       <MainTitle
         title="Our Team"
-        description="Meet the developers behind Tech-Introspectors!"
+        description="Meet the developers behind Tech Introspectors!"
         bgColor="#ffff"
       />
 
