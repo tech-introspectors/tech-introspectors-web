@@ -1,3 +1,4 @@
+import Faq from "./Faq";
 import Hero from "./Hero";
 import OurTopProjects from "./OurTopProjects";
 import TechnologiesWeUse from "./TechnologiesWeUse";
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <OurTopProjects />
       <TechnologiesWeUse />
+      <Faq />
     </div>
   );
 };
