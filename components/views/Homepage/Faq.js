@@ -5,6 +5,10 @@ import { IoMdAdd } from "react-icons/io";
 
 const Faq = () => {
   const [faqId, setFaqId] = React.useState(1);
+  const [isActive, setIsActive] = React.useState(false);
+
+  console.log(faqId);
+
   return (
     <div className="h-auto w-full  bg-gray-50 py-10">
       <MainTitle title={"FAQ"} description="Frequently Asked Questions" />
@@ -15,20 +19,24 @@ const Faq = () => {
             <div className="my-1">
               <div className="max-w-md">
                 <div
-                  onClick={() => setFaqId(faq.id)}
-                  className="px-3 py-2 flex justify-between items-center border-2 border-gray-300 cursor-pointer rounded-md"
+                  onClick={() => {
+                    setFaqId(faq.id);
+                    setIsActive(!isActive);
+                  }}
+                  className="px-3 py-2 flex justify-between items-center border-2 border-secondaryblue/50 cursor-pointer rounded-md"
                 >
-                  <h2 className="">{faq.question}</h2>
-                  <IoMdAdd className="text-gray-400 cursor-pointer" />
+                  <h2 className="text-secondaryblue">{faq.question}</h2>
+                  <IoMdAdd className="text-secondaryblue cursor-pointer" />
                 </div>
                 <div
-                  className={`transition-all duration-300 ${
-                    faqId === faq.id
-                      ? "h-[70px] opacity-1"
-                      : "h-[0px] opacity-0"
-                  }`}
+                  className={`transition-all duration-300 pointer-events-none
+                ${
+                  isActive && faqId === faq.id
+                    ? "h-[80px] opacity-1"
+                    : "h-[0px] opacity-0"
+                }`}
                 >
-                  <p>{faq.answer}</p>
+                  <p className="px-3 py-2 text-gray-500">{faq.answer}</p>
                 </div>
               </div>
             </div>
