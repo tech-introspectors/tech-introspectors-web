@@ -5,11 +5,11 @@ export const technologiesData = [
   },
   {
     logoURL: "images/techLogos/reactjs.svg",
-    techName: "React js Web Development",
+    techName: "React.js Web Development",
   },
   {
     logoURL: "images/techLogos/nextjs.svg",
-    techName: "Next js Web Development",
+    techName: "Next.js Web Development",
   },
   {
     logoURL: "images/techLogos/javascript.svg",

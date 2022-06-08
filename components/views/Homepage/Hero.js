@@ -17,10 +17,10 @@ const Hero = () => {
           <Fade bottom>
             {" "}
             <Title
-              datatype="Tech-Introspectors"
+              datatype="Tech Introspectors"
               className="text-4xl md:text-5xl font-bold mb-4"
             >
-              Tech-Introspectors
+              Tech Introspectors
             </Title>
           </Fade>
 
@@ -64,7 +64,7 @@ const Title = styled.h1`
   white-space: nowrap;
 
   ::before {
-    content: "Tech-Introspectors ";
+    content: "Tech Introspectors ";
     position: absolute;
     top: 0;
     left: 0;

@@ -79,7 +79,7 @@ const Footer = () => {
             className="text-secondarylightblue font-semibold
           "
           >
-            Tech-Introspectors
+            Tech Introspectors
           </span>
         </p>
       </div>
