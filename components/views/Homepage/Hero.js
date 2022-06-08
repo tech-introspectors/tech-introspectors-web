@@ -1,5 +1,3 @@
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
 import styled from "styled-components";
 import {
   primaryblue,
@@ -14,32 +12,25 @@ const Hero = () => {
     <div className="relative bg-primaryblue py-24 w-screen h-auto overflow-hidden">
       <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
         <div className="px-7 pb-11 md:pl-11 flex flex-col justify-center md:w-1/2">
-          <Fade bottom>
-            {" "}
-            <Title
-              datatype="Tech Introspectors"
-              className="text-4xl md:text-5xl font-bold mb-4"
-            >
-              Tech Introspectors
-            </Title>
-          </Fade>
+          <Title
+            datatype="Tech Introspectors"
+            className="text-4xl md:text-5xl font-bold mb-4"
+          >
+            Tech Introspectors
+          </Title>
 
-          <Slide top>
-            <div className="h-[10vh] mb-4">
-              <TypeWriting />
-            </div>
-          </Slide>
-          <Fade bottom>
-            <p className="text-lg md:text-xl text-secondarytextcolor">
-              We are a team of Tech enthusiast who code to bring a change!
-            </p>
-          </Fade>
-        </div>
-        <Fade top>
-          <div className="z-10 w-full lg:w-9/12">
-            <img src="images/developer.svg" />
+          <div className="h-[10vh] mb-4">
+            <TypeWriting />
           </div>
-        </Fade>
+
+          <p className="text-lg md:text-xl text-secondarytextcolor">
+            We are a team of Tech enthusiast who code to bring a change!
+          </p>
+        </div>
+
+        <div className="z-10 w-full lg:w-9/12">
+          <img src="images/developer.svg" />
+        </div>
       </div>
 
       <div className="w-screen absolute bottom-0 ">

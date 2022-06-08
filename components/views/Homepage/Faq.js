@@ -7,8 +7,6 @@ const Faq = () => {
   const [faqId, setFaqId] = React.useState(1);
   const [isActive, setIsActive] = React.useState(false);
 
-  console.log(faqId);
-
   return (
     <div className="h-auto w-full  bg-gray-50 py-10">
       <MainTitle title={"FAQ"} description="Frequently Asked Questions" />
@@ -16,7 +14,7 @@ const Faq = () => {
       <div className="w-[90%] mx-auto h-full flex items-center justify-center flex-col">
         {faqData.map((faq) => {
           return (
-            <div className="my-1">
+            <div key={faq.id} className="my-1">
               <div className="max-w-md">
                 <div
                   onClick={() => {
