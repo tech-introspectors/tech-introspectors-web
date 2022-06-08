@@ -3,30 +3,30 @@ export const faqData = [
     id: 1,
     question: "What are the services do you offer",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis vitae tempora quod provident tenetur culpa dolore facere? Earum, dolor?",
+      "We build robust Web and Mobile applications using various technologies. We also build Machine Learning, Deep Learning models and Data Science Projects.",
   },
   {
     id: 2,
-    question: "what are our preferred method of payment",
+    question: "Which Technologies do you use to build Web and Mobile applications?",
     answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto iusto veniam eveniet labore impedit nam",
+      "We are well-versed with various web technologies, frameworks and libraries like React, Next.js, React Native, Flutter, NodeJS, Express, MongoDB, Spring and more.",
   },
   {
     id: 3,
-    question: "Are your services beginners friendly",
+    question: "How long do you take to build a project?",
     answer:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores,",
+      "It depends on the complexity and number of viewpoints of the project. But we usually take a minimum of 5-7 days to build a project.",
   },
   {
     id: 4,
-    question: "what how does it take to upgrade a package",
+    question: "Do you also build Machine Learning, Deep Learning models and Data Science Projects?",
     answer:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi.",
+      "Yes, we do. Check out our projects page to see our projects.",
   },
   {
     id: 5,
-    question: "Where are your offices located around the world",
+    question: "How should I contact you?",
     answer:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, sed. Dolores, sequi.",
+      "You can mail us at teamintrospectors@gmail.com, or you can headover to contact us page and reach out to us directly.",
   },
 ];
