@@ -13,7 +13,7 @@ const Faq = () => {
     <div className="h-auto w-full  bg-gray-50 py-10">
       <MainTitle title={"FAQ"} description="Frequently Asked Questions" />
 
-      <div className="w-full h-full flex items-center justify-center flex-col">
+      <div className="w-[90%] mx-auto h-full flex items-center justify-center flex-col">
         {faqData.map((faq) => {
           return (
             <div className="my-1">
