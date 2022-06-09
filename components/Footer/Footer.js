@@ -74,7 +74,7 @@ const Footer = () => {
       </div>
       <div className="w-screen flex justify-center items-center py-5  text-secondarytextcolor">
         <p>
-          copyright @ 2021{" "}
+          copyright @ 2022{" "}
           <span
             className="text-secondarylightblue font-semibold
           "

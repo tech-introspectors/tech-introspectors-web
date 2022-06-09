@@ -9,7 +9,7 @@ export const navData = [
   },
   {
     menu: "Blog",
-    path: "/blog",
+    path: "https://dantusaikamal.github.io/TechIntrospectors.tech/tech-index.html",
   },
   {
     menu: "Contact Us",

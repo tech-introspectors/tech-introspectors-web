@@ -1,8 +1,17 @@
 const TechBlog = () => {
   return (
-    <div className="flex justify-center items-center h-screen text-4xl">
-      Tech-Introspectors Blog
-    </div>
+    // <div class="h-screen">
+    <a href="" >Temp</a>
+    // </div>
+    // // <html>    
+    // // <script>function redirect(){
+    // //   window.location = "../public/tech-blog/index.html"
+    // // }
+      
+    // // <body onload="redirect()"></body>
+    // // </script>
+    // // </html>
+
   );
 };
 
