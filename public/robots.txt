@@ -1,2 +1,6 @@
+Sitemap: https://teamintrospectors.tech/api/posts-sitemap
+
 User-agent: *
-Disallow:
+Allow: /*
+
+Disallow: /api/*
