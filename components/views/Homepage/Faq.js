@@ -30,7 +30,7 @@ const Faq = () => {
                   className={`transition-all duration-300 pointer-events-none
                 ${
                   isActive && faqId === faq.id
-                    ? "h-[80px] opacity-1"
+                    ? "h-[80px] mb-5 opacity-1"
                     : "h-[0px] opacity-0"
                 }`}
                 >
