@@ -21,10 +21,12 @@ const Faq = () => {
                     setFaqId(faq.id);
                     setIsActive(!isActive);
                   }}
-                  className="px-3 py-2 flex justify-between items-center border-2 border-secondaryblue/50 cursor-pointer rounded-md"
+                  className="px-3 py-2 flex justify-between items-center border-2 bg-primaryblue border-secondaryblue/50 cursor-pointer rounded-md"
                 >
-                  <h2 className="text-secondaryblue">{faq.question}</h2>
-                  <IoMdAdd className="text-secondaryblue cursor-pointer" />
+                  <h2 className="text-white">{faq.question}</h2>
+                  <div>
+                    <IoMdAdd className="text-white cursor-pointer max-w-[20px]" />
+                  </div>
                 </div>
                 <div
                   className={`transition-all duration-300 pointer-events-none
