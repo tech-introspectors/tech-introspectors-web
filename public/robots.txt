@@ -1,4 +1,4 @@
-Sitemap: https://teamintrospectors.tech/api/posts-sitemap
+Sitemap: https://teamintrospectors.tech/api/posts-sitemap.xml
 
 User-agent: *
 Allow: /*
