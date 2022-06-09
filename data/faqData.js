@@ -1,13 +1,14 @@
 export const faqData = [
   {
     id: 1,
-    question: "What are the services do you offer",
+    question: "What are the services do you offer?",
     answer:
       "We build robust Web and Mobile applications using various technologies. We also build Machine Learning, Deep Learning models and Data Science Projects.",
   },
   {
     id: 2,
-    question: "Which Technologies do you use to build Web and Mobile applications?",
+    question:
+      "Which Technologies do you use to build Web and Mobile applications?",
     answer:
       "We are well-versed with various web technologies, frameworks and libraries like React, Next.js, React Native, Flutter, NodeJS, Express, MongoDB, Spring and more.",
   },
@@ -19,9 +20,9 @@ export const faqData = [
   },
   {
     id: 4,
-    question: "Do you also build Machine Learning, Deep Learning models and Data Science Projects?",
-    answer:
-      "Yes, we do. Check out our projects page to see our projects.",
+    question:
+      "Do you also build Machine Learning, Deep Learning models and Data Science Projects?",
+    answer: "Yes, we do. Check out our projects page to see our projects.",
   },
   {
     id: 5,
