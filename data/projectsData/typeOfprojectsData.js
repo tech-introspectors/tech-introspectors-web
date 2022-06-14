@@ -11,7 +11,7 @@ export const typeOfprojectsData = [
   },
   {
     id: "machineLearning",
-    img: "images/projectsImg/web-development.svg",
+    img: "images/projectsImg/ml.svg",
     type: "Machine Learning",
   },
 ];
@@ -22,8 +22,7 @@ export const projectsShowCaseData = [
       {
         category: "Mobile APP",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/home-screen.jpeg",
+        projectImgSrc: "/images/projectsImg/topProjectImg/home-screen.jpeg",
         projectName: "Leaf Disease Identification",
         projectDescription:
           "A mobile application that uses an integrated machine learning model to identify and classify leaves based on their disease.",
@@ -40,8 +39,7 @@ export const projectsShowCaseData = [
       {
         category: "Mobile APP",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/musicplayer.jpg",
+        projectImgSrc: "/images/projectsImg/topProjectImg/musicplayer.jpg",
         projectName: "Flutter Music Player",
         projectDescription:
           "A music player with stunning UI that allows users to listen to music and play it in the background.",
@@ -50,8 +48,7 @@ export const projectsShowCaseData = [
       {
         category: "Mobile APP",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/flutter-ocr.jpg",
+        projectImgSrc: "/images/projectsImg/topProjectImg/flutter-ocr.jpg",
         projectName: "Flutter OCR",
         projectDescription:
           "A mobile application to decompose the given image into objects and extract text from it.",
@@ -59,8 +56,7 @@ export const projectsShowCaseData = [
       {
         category: "Mobile APP",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/radio.jpg",
+        projectImgSrc: "/images/projectsImg/topProjectImg/radio.jpg",
         projectName: "Radio app",
         projectDescription:
           "A mobile application that displays the local radio stations and allows users to listen to various radio stations.",
@@ -68,8 +64,7 @@ export const projectsShowCaseData = [
       {
         category: "Mobile APP",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/news.jpeg",
+        projectImgSrc: "/images/projectsImg/topProjectImg/news.jpeg",
         projectName: "News App",
         projectDescription:
           "A mobile application that displays the latest news and articles from various news sources.",
@@ -80,7 +75,8 @@ export const projectsShowCaseData = [
     webDevelopmentProjects: [
       {
         category: "Web Application",
-        projectDemoLink: "/#",
+        projectDemoLink:
+          "https://object-classification-using-tf.herokuapp.com/",
         projectImgSrc:
           "/images/projectsImg/topProjectImg/obj classification.PNG",
         projectName: "Object Classification",
@@ -89,7 +85,7 @@ export const projectsShowCaseData = [
       },
       {
         category: "Web Application",
-        projectDemoLink: "/#",
+        projectDemoLink: "basic-banking-system-six.vercel.app",
         projectImgSrc:
           "/images/projectsImg/topProjectImg/basic-banking-system.png",
         projectName: "Banking Web Application",
@@ -98,7 +94,8 @@ export const projectsShowCaseData = [
       },
       {
         category: "Web Application",
-        projectDemoLink: "/#",
+        projectDemoLink:
+          "https://dantusaikamal.github.io/Covid-Emergency-Resources/",
         projectImgSrc:
           "/images/projectsImg/topProjectImg/emergency-supplies.PNG",
         projectName: "Covid Emergency Supplies",
@@ -107,18 +104,16 @@ export const projectsShowCaseData = [
       },
       {
         category: "Web Application",
-        projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/social media.png",
+        projectDemoLink: "https://mg-share-me.netlify.app/",
+        projectImgSrc: "/images/projectsImg/topProjectImg/social media.png",
         projectName: "Social media app",
         projectDescription:
           "A web application that allows users to share their posts and comments with other users.",
       },
       {
         category: "Web Application",
-        projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/whatsapp-clone.png",
+        projectDemoLink: "http://whatsapp-clone-eosin.vercel.app/",
+        projectImgSrc: "/images/projectsImg/topProjectImg/whatsapp-clone.png",
         projectName: "Whatsapp Clone",
         projectDescription:
           "A web application that allows users to send and receive messages with other users.",
@@ -126,8 +121,7 @@ export const projectsShowCaseData = [
       {
         category: "Web Application",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/dashboard.png",
+        projectImgSrc: "/images/projectsImg/topProjectImg/dashboard.png",
         projectName: "Dashboard Visualization",
         projectDescription:
           "A web application that displays the data in a dashboard and visualizes it in various graphs.",
@@ -140,8 +134,7 @@ export const projectsShowCaseData = [
       {
         category: "Data Science",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/churn.png",
+        projectImgSrc: "/images/projectsImg/topProjectImg/churn.png",
         projectName: "Telecom Churn Analysis",
         projectDescription:
           "A machine learning project that uses various machine learning algorithms to predict whether a customer will churn or not.",
@@ -149,8 +142,7 @@ export const projectsShowCaseData = [
       {
         category: "Deep Learning",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/stylegan.jpg",
+        projectImgSrc: "/images/projectsImg/topProjectImg/stylegan.jpg",
         projectName: "Semantic Editing using StyleGAN",
         projectDescription:
           "A deep learning project that uses stylegan to generate various facial features for given images.",
@@ -158,8 +150,7 @@ export const projectsShowCaseData = [
       {
         category: "Machine Learning",
         projectDemoLink: "/#",
-        projectImgSrc:
-          "/images/projectsImg/topProjectImg/hulo-clone.png",
+        projectImgSrc: "/images/projectsImg/topProjectImg/hulo-clone.png",
         projectName: "Movie Recommendation System",
         projectDescription:
           "A content-based recommendation system to recommend movies from a dataset of over 50,000 movies.",

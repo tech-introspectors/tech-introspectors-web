@@ -10,7 +10,7 @@ export const teamMemberData = [
   {
     img: "images/aboutUsImg/teamMemberImg/pavan.png",
     name: "M.Pavan Kumar",
-    profession: "Developer",
+    profession: "Co-Founder",
     aboutHim:
       "A front-end wizard. App UI developer, Full Stack developer | Self learner with a passion over learning.",
 
@@ -45,7 +45,7 @@ export const teamMemberData = [
   {
     img: "images/aboutUsImg/teamMemberImg/kamal.png",
     name: "D.Sai Kamal",
-    profession: "Developer",
+    profession: "Co-Founder",
     aboutHim:
       "A tech enthusiast and an AI,ML geek. Passionate about Data Science and currently on the journey to become a full stack developer.",
 
