@@ -85,7 +85,7 @@ export const projectsShowCaseData = [
       },
       {
         category: "Web Application",
-        projectDemoLink: "basic-banking-system-six.vercel.app",
+        projectDemoLink: "https://basic-banking-system-six.vercel.app",
         projectImgSrc:
           "/images/projectsImg/topProjectImg/basic-banking-system.png",
         projectName: "Banking Web Application",
