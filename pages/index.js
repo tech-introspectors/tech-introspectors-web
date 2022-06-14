@@ -7,6 +7,9 @@ export default function Home() {
       <Head>
         <title>Tech Introspectors</title>
         <meta name="description" content="We are Tech Introspectors. We build robust applications using various technologies. Contact us if you're looking for any developers." />
+        <meta name="robots" content="all" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <meta charset="UTF-8"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="w-screen">
