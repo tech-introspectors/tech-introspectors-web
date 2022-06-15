@@ -9,8 +9,8 @@ import TypeWriting from "../../TypeWriting";
 
 const Hero = () => {
   return (
-    <div className="relative bg-primaryblue py-24 w-screen h-auto overflow-hidden">
-      <div className="w-screen h-full flex items-center flex-col-reverse md:flex-row gap-8">
+    <div className="relative bg-primaryblue py-24 w-full h-auto overflow-hidden">
+      <div className="w-full h-full flex items-center flex-col-reverse md:flex-row gap-8">
         <div className="px-7 pb-11 md:pl-11 flex flex-col justify-center md:w-1/2">
           <Title
             datatype="Tech Introspectors"
@@ -63,7 +63,7 @@ const Title = styled.h1`
     overflow: hidden;
     border-right: 3px solid ${secondarylightblue};
     width: 0;
-    height: 100%;
+    height: 120%;
     color: ${secondarylightblue};
 
     animation: animate 6s linear infinite alternate;

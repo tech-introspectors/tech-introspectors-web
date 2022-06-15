@@ -14,7 +14,7 @@ const OurTopProjects = () => {
     fontWeight: "bold",
   };
   return (
-    <div className="flex pt-24 flex-col w-screen h-auto bg-gray-50">
+    <div className="flex pt-24 flex-col w-full h-auto bg-gray-50">
       <div>
         <MainTitle bgColor={sectionColor} title="Our Top Projects" />
       </div>
