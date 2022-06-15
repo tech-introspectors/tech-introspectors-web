@@ -9,7 +9,7 @@ import TechCard from "./components/TechCard";
 
 const TechnologiesWeUse = () => {
   return (
-    <div className="relative py-11 px-11 md:p-14 h-auto w-screen bg-primaryblue">
+    <div className="relative py-11 px-11 md:p-14 h-auto w-full bg-primaryblue">
       <div className="mb-11">
         <MainTitle
           outerDivColor={sectionColor}

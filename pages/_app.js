@@ -1,4 +1,5 @@
 import "../styles/index.css";
+import "../styles/global.css";
 import "../styles/LoadingPage.css";
 
 import Layout from "../components/Layout";

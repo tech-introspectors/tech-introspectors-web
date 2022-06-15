@@ -12,7 +12,7 @@ export default function Home() {
         <meta charset="UTF-8"></meta>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="w-screen">
+      <main className="w-full overflow-hidden">
         <HomePage />
       </main>
     </div>

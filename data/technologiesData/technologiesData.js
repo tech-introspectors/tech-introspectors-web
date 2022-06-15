@@ -1,39 +1,39 @@
 export const technologiesData = [
   {
-    logoURL: "images/techLogos/flutter.svg",
+    logoURL: "/images/techLogos/flutter.svg",
     techName: "Flutter App Development",
   },
   {
-    logoURL: "images/techLogos/reactjs.svg",
+    logoURL: "/images/techLogos/reactjs.svg",
     techName: "React.js Web Development",
   },
   {
-    logoURL: "images/techLogos/nextjs.svg",
+    logoURL: "/images/techLogos/nextjs.svg",
     techName: "Next.js Web Development",
   },
   {
-    logoURL: "images/techLogos/javascript.svg",
+    logoURL: "/images/techLogos/javascript.svg",
     techName: "JavaScript",
   },
   {
-    logoURL: "images/techLogos/python.svg",
+    logoURL: "/images/techLogos/python.svg",
     techName: "Python Programming",
   },
   {
-    logoURL: "images/techLogos/java.svg",
+    logoURL: "/images/techLogos/java.svg",
     techName: "Java Programming",
   },
 
   {
-    logoURL: "images/techLogos/robot.svg",
+    logoURL: "/images/techLogos/robot.svg",
     techName: "Machine Learning",
   },
   {
-    logoURL: "images/techLogos/firebase.svg",
+    logoURL: "/images/techLogos/firebase.svg",
     techName: "Firebase",
   },
   {
-    logoURL: "images/techLogos/amazon-web-services.svg",
+    logoURL: "/images/techLogos/amazon-web-services.svg",
     techName: "Amazon Web Services",
   },
 ];

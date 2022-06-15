@@ -8,7 +8,7 @@ const Faq = () => {
   const [isActive, setIsActive] = React.useState(false);
 
   return (
-    <div className="h-auto w-full  bg-gray-50 py-10">
+    <div className="h-auto w-full bg-gray-50 py-10">
       <MainTitle title={"FAQ"} description="Frequently Asked Questions" />
 
       <div className="w-[90%] mx-auto h-full flex items-center justify-center flex-col">

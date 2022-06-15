@@ -13,9 +13,7 @@ const CaroselSlider = () => {
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    pauseOnHover: true,
+    autoplaySpeed: 3000,
     cssEase: "linear",
 
     responsive: [

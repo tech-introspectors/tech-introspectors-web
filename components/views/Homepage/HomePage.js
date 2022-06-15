@@ -5,7 +5,7 @@ import TechnologiesWeUse from "./TechnologiesWeUse";
 
 const HomePage = () => {
   return (
-    <div className="w-screen">
+    <div className="w-full overflow-hidden">
       <Hero />
       <OurTopProjects />
       <TechnologiesWeUse />
