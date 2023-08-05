@@ -7,7 +7,6 @@ import {
 import { ourServices } from "../../../data/aboutUsData/aboutUsData";
 import MainTitle from "../../MainTitle";
 import ListCard from "./components/ListCard";
-import Slide from "react-reveal";
 
 const OurServices = () => {
   return (
@@ -31,14 +30,9 @@ const OurServices = () => {
         </div>
       </div>
 
-      <Slide top>
-        <div className="w-full h-full md:w-1/2 md:p-2 lg:p-11">
-          <img
-            className="object-cover"
-            src="images/aboutUsImg/ourServices.svg"
-          />
-        </div>
-      </Slide>
+      <div className="w-full h-full md:w-1/2 md:p-2 lg:p-11">
+        <img className="object-cover" src="images/aboutUsImg/ourServices.svg" />
+      </div>
     </div>
   );
 };

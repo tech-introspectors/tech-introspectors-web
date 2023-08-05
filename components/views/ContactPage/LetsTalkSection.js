@@ -6,7 +6,6 @@ import {
 } from "../../../constants/colors";
 import { whyToReachUsData } from "../../../data/contactUsData/whyToReachUsData";
 import MainTitle from "../../MainTitle";
-import Slide from "react-reveal";
 
 const LetsTalkSection = () => {
   return (
@@ -48,13 +47,11 @@ const LetsTalkSection = () => {
 
         {/* Right size image */}
         <div className="w-full relative flex justify-center items-center">
-          <Slide top>
-            <img
-              className="lg:absolute max-w-5xl w-full lg:p-8"
-              src="images/contactUsImg/letsTalk.svg"
-              loading="lazy"
-            />
-          </Slide>
+          <img
+            className="lg:absolute max-w-5xl w-full lg:p-8"
+            src="images/contactUsImg/letsTalk.svg"
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

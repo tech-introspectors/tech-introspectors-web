@@ -31,10 +31,8 @@ const CustomeIcon = ({
       iconColor={iconColor}
       iconSize={iconSize}
     >
-      <Link href={link} replace scroll={false}>
-        <a target="_blank">
-          <Icon />
-        </a>
+      <Link href={link} target="_blank" replace scroll={false}>
+        <Icon />
       </Link>
     </Div>
   );
