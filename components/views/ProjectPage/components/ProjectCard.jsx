@@ -1,4 +1,3 @@
-
 import React from "react";
 import { AiFillEye, AiFillGithub } from "react-icons/ai";
 import Link from "next/link";
@@ -23,10 +22,13 @@ const ProjectCard = ({
               rounded-lg duration-300 group
         "
         >
-          <Link href={projectDemoLink || "#"} passHref>
-            <a target={projectDemoLink && "_blank"}>
-              <AiFillEye
-                className="text-white
+          <Link
+            href={projectDemoLink || "#"}
+            target={projectDemoLink && "_blank"}
+            passHref
+          >
+            <AiFillEye
+              className="text-white
            text-2xl -translate-x-1/2 bg-black/60 p-3 -translate-y-1/2
            md:group-hover:scale-100
            
@@ -36,8 +38,7 @@ const ProjectCard = ({
            absolute left-1/2
            md:scale-0
            rounded-full w-[50px] h-[50px]"
-              />
-            </a>
+            />
           </Link>
         </div>
         <div
